@@ -47,7 +47,7 @@ async function placeCatCard(){
 }
 
 document.addEventListener("DOMContentLoaded", async function () {
-   for (let i = 0; i < 30; i++){
+   for (let i = 0; i < 45; i++){
     placeCatCard()
    }
 });
