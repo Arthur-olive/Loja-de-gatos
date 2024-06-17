@@ -1,0 +1,74 @@
+#header {
+    display: flex;
+    background-color: #000000;
+    padding-left: 25px;
+    margin-bottom: 90px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#logo {
+    color: #ffffff;
+}
+
+#cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 5fr);
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card p {
+    margin: 0;
+}
+
+.card h4 {
+    margin: 0;
+}
+
+.card div {
+    margin-top: 20px;
+}
+
+.card img {
+    border-radius: 10px;
+    width: 221px;
+    height: 251px;
+}
+
+.cards-painel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.description {
+    color: rgba(107, 107, 107, 0.479);
+}
+
+.price {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
