@@ -10,7 +10,7 @@ function generateName(){
 }
 
 function generateDescription(){
-    const desc = ["Branco","Preto","Gordo","Magro","Grande","Rebaixado","Cabeçudo","Orelhudo","Sem pai","Mãe abandonou","Esfomeado","Preguiçoso","Gosta de lasanha"]
+    const desc = ["Branco","Preto","Gordo","Magro","Grande","Rebaixado","Cabeçudo","Orelhudo","Sem pai","Abandonado","Esfomeado","Preguiçoso","Gosta de lasanha"]
     randomDesc = Math.floor(Math.random() * (desc.length))
     return desc[randomDesc]
 }
